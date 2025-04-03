@@ -8,7 +8,7 @@ with open("iris_svm_model.pkl","rb") as f:
     model = pickle.load(f)
 
 with open("iris_scaler.pkl","rb") as f:
-    model = pickle.load(f)
+    scaler = pickle.load(f)
 
 st.title("Iris Flower Classifier Using Support Vector Machines")
 st.write("Input sepal and petal measurements below:")
