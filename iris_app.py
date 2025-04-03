@@ -18,7 +18,7 @@ sepal_width = st.slider("Sepal width (cm)", 2.0, 5.0, 3.0)
 petal_length = st.slider("Petal legnth (cm)", 1.0, 7.0, 4.2)
 petal_width = st.slider("Petal width (cm)", 0.1, 3.0, 1.3)
 
-scaler=StandardScaler()
+#scaler=StandardScaler()
 
 
 input_data = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
